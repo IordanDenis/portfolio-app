@@ -74,7 +74,7 @@ const Contact = () => {
                             alt="" 
                             className="c-icon" 
                             />
-                            <a target="_blank" href="https://www.instagram.com/denis.jordann/">Instagram</a>
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/denis.jordann/">Instagram</a>
                         </div>
                         <div className="c-info-item">
                             <img
@@ -82,7 +82,7 @@ const Contact = () => {
                             alt="" 
                             className="c-icon" 
                             />
-                            <a target="_blank" href="https://www.linkedin.com/in/iordan-denis/">LinkedIn</a>
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/iordan-denis/">LinkedIn</a>
                         </div>
                         <div className="c-info-item">
                             <img
@@ -90,7 +90,7 @@ const Contact = () => {
                             alt="" 
                             className="c-icon" 
                             />
-                            <a target="_blank" href="https://github.com/IordanDenis">GitHub</a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/IordanDenis">GitHub</a>
                         </div>
                     </div>
                 </div>
