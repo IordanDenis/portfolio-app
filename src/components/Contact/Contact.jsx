@@ -5,13 +5,16 @@ import Address from "../../images/address.png"
 import Instagram from "../../images/instagram.png"
 import LinkedIn from "../../images/linkedin.png"
 import GitHub from "../../images/github.png"
-import { useRef, useState } from "react"
+import { useContext, useRef, useState } from "react"
 import emailjs from 'emailjs-com'
+import { ThemeContext } from "../../context"
 
 
 const Contact = () => {
     const formRef = useRef()
     const [done, setDone] = useState(false)
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode;
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -74,7 +77,7 @@ const Contact = () => {
                             alt="" 
                             className="c-icon" 
                             />
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/denis.jordann/">Instagram</a>
+                            <a style={{color: darkMode && "white"}} target="_blank" rel="noreferrer" href="https://www.instagram.com/denis.jordann/">Instagram</a>
                         </div>
                         <div className="c-info-item">
                             <img
@@ -82,7 +85,7 @@ const Contact = () => {
                             alt="" 
                             className="c-icon" 
                             />
-                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/iordan-denis/">LinkedIn</a>
+                            <a style={{color: darkMode && "white"}} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/iordan-denis/">LinkedIn</a>
                         </div>
                         <div className="c-info-item">
                             <img
@@ -90,7 +93,7 @@ const Contact = () => {
                             alt="" 
                             className="c-icon" 
                             />
-                            <a target="_blank" rel="noreferrer" href="https://github.com/IordanDenis">GitHub</a>
+                            <a style={{color: darkMode && "white"}} target="_blank" rel="noreferrer" href="https://github.com/IordanDenis">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -105,10 +108,10 @@ const Contact = () => {
                             <input type="text" placeholder="Subject" name="user_subject"/>
                             <input type="text" placeholder="Email" name="user_email"/>
                             <textarea rows="5" placeholder="Message" name="message"/>
-                        </div>
                         <div className="submit">
                             <button>Submit</button>
                             <p className="submit-text">{done && "Thank you"}</p>
+                        </div>
                         </div>
                     </form>
                 </div>

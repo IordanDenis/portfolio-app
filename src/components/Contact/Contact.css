@@ -108,6 +108,10 @@ button{
         display: none;
     }
 
+    .c-right{
+        align-items: start;
+    }
+
     form{
         margin-top: 0px;
         display: flex;
