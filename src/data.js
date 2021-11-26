@@ -1,13 +1,13 @@
 export const products = [
     {
         id: 1,
-        img: "https://i.ibb.co/Bzc5W0F/screencapture-github-Iordan-Denis-2021-11-16-02-50-50.png",
-        link: "https://github.com/IordanDenis",
+        img: "https://i.ibb.co/HrH7zsR/screencapture-denisiordan-vercel-app-2021-11-26-18-43-27.png",
+        link: "https://denisiordan.vercel.app",
     },
     {
         id: 2,
-        img: "https://i.ibb.co/gRPhjyY/screencapture-lipsum-2021-11-16-03-57-00.png",
-        link: "https://www.lipsum.com/",
+        img: "",
+        link: "",
     },
     {
         id: 3,
