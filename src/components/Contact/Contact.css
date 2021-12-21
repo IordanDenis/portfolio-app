@@ -144,3 +144,33 @@ button{
         text-align: left;
     }
 }
+
+@media screen and (max-width: 1300px){
+    
+    .c-wrapper{
+        padding: 25px;
+    }
+
+    .c-title{
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .c-info-item{
+        margin: 25px 0px;
+    }
+
+    .c-icon{
+        margin-right: 10px;
+    }
+
+    form{
+        margin-top: 10px;
+    }
+
+    textarea{
+        height: 150px;
+    }
+
+
+}

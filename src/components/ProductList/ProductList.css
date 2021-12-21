@@ -40,3 +40,27 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1300px){
+    
+    .prodlist{
+        padding: 30px 80px;
+    }
+
+    .pl-texts{
+        width: 100%;
+    }
+
+    .pl-title{
+        font-size: 40px;
+    }
+
+    .pl-desc{
+        margin: 10px;
+    }
+
+    .pl-list{
+        width: 90%;
+    }
+    
+}
