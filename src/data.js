@@ -1,7 +1,7 @@
 export const products = [
     {
         id: 1,
-        img: "https://i.ibb.co/HrH7zsR/screencapture-denisiordan-vercel-app-2021-11-26-18-43-27.png",
+        img: "https://i.ibb.co/fXtV5pw/screencapture-denisiordan-vercel-app-2021-12-22-22-08-00.png",
         link: "https://denisiordan.vercel.app",
     },
     {
